@@ -13,7 +13,7 @@ const Post = ({ launch }) => {
               Peace Lily
             </span>
           </div>
-          <div className="flex"></div>
+          <div className=""></div>
         </div>
       </div>
     </div>

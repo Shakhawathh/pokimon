@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home({ Launches }) {
   console.log("launches", Launches);
   return (
-    <div className="bg-[url('https://i.ibb.co/ZWQD9mG/Background.png')] bg-cover">
-      <div className="grid sm:grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4 mb-2 mx-16 ">
+    <div className="bg-[url('https://i.ibb.co/ZWQD9mG/Background.png')] bg-cover ">
+      <div className="grid sm:grid-cols-1 gap-12 mn md:grid-cols-2 lg:grid-cols-4 mb-2 mx-16 ">
         {Launches?.slice(0, 8)?.map((launch) => (
           <Post key={launch.id} launch={launch}></Post>
         ))}
